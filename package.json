@@ -1,0 +1,13 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "start": "npx hardhat node"
+  },
+  "dependencies": {
+    "ethers": "^6.13.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.6"
+  }
+}
