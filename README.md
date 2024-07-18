@@ -8,9 +8,19 @@
     * Cons:
         * If just upgrade the logic functions, we still need migrate data. Vice versa.
 2. Proxy pattern. Seperate data storage and logic.
-    * The parent contract has two variables pointing to two different deployed contracts: one handles logic, one handles data storage.
+    * The parent contract has its own data/state, but has a variable that points to the implementation contract address. 
     * Pros:
-        * Uprade logic and data contracts independently.
+        * data and logic are seperated.
 
 # Problems During Implementation
 
+# Audit
+1. Test common vulnerabilities
+* reentrancy
+* access control
+* return values
+* overflow
+2. thorough integration test to avoid logical bugs
+3. bounty program
+4. monitoring
+5. audit
