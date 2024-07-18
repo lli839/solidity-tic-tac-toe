@@ -12,14 +12,12 @@
     * Pros:
         * data and logic are seperated.
 
-# Problems During Implementation
-
 # Audit
 1. Test common vulnerabilities
 * reentrancy
 * access control
-* return values
-* overflow
+* overflow（safeMath, solidity0.8)
+* gas griefing
 2. thorough integration test to avoid logical bugs
 3. bounty program
 4. monitoring
